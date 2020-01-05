@@ -149,7 +149,16 @@
     padding-bottom: 2rem;
     text-align: center;
 }
-
+.flex2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: -4.5rem;
+    p{
+        width:79%;
+        margin-top: -0.2rem;
+    }
+}
 .parent{
     display: flex;
     padding-right: 3rem;

@@ -7,22 +7,27 @@ import { Link } from "gatsby"
 
 export default () => <Layout>
     <div className= {HIT.body}>
+    
     <h1>How It Works</h1>
     <div className= {HIT.line}></div>
+    
+    
     <div className= {HIT.flex}>
     
-    <div className={HIT.circle_container}>
+    <div>
 	<div className={HIT.circle_main1}>
 	<div className={HIT.circle_text_container}>
 	<div className = {HIT.circle_text}>1</div>
 	</div>
-	</div>
     </div>
+	</div>
+    
     
     <div className= {HIT.child}>
     <h2>PIAIC will launch classes in the following locations, one city at a time, in the following order</h2>
     </div>
     </div>
+    
     <div className = {HIT.heading1}>
     <p>City by City Roadmap</p>
     </div>
