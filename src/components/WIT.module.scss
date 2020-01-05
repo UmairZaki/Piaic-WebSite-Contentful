@@ -1,0 +1,634 @@
+.super {
+    background-color: rgb(224, 224, 224);
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+    
+    h1 {
+        font-size: 3.5rem;
+        color: black;
+        font-weight: bolder;
+        text-align: center;
+        word-spacing: 1rem;
+        margin-top: 5rem;
+    }
+    h2{
+        font-size: 1rem;
+        font-weight: bolder;
+        letter-spacing: 0.5rem;
+        color: black;
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+    
+    p{
+        font-size: 1rem;
+        font-weight: bolder;
+        color: rgb(114, 114, 114);
+        margin: 2rem 5rem 2rem 5rem;
+        word-spacing: 0.2rem;
+    }
+}
+.main{
+    height: 600px;
+    width: 100%;
+    background-position: center;
+    background-size: 125%;
+    background-repeat: no-repeat;
+    background-color: #ddd;
+    background-image: url("./witIcon.jpeg");
+}
+.line {
+    border-top: 1.5px solid black;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    margin-top: -2.5rem;
+}
+.spotlight{
+    display: flex;
+    margin: 0rem 1rem;
+}
+
+.image{
+flex-shrink: 0;   
+width: 600px;
+height: 350px;
+background-repeat: no-repeat;
+background-size: cover;
+background-image: url("./wit/01.jpg");
+border: 2px solid white;
+margin: 0.1rem;
+}
+.image2{
+    flex-shrink: 0;   
+    width: 420px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/02.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+    }
+.image3{
+    flex-shrink: 0;   
+    width: 280px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/03.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+ }
+.image4{
+    flex-shrink: 0;   
+    width: 280px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/04.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+ }
+ .image5{
+    flex-shrink: 0;   
+    width: 420px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/05.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image6{
+    flex-shrink: 0;   
+    width: 600px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/06.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image7{
+    flex-shrink: 0;   
+    width: 320px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/07.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+ }
+ .image8{
+    flex-shrink: 0;   
+    width: 580px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/08.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image9{
+    flex-shrink: 0;   
+    width: 400px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/09.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image10{
+    flex-shrink: 0;   
+    width: 707px;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/10.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image11{
+    flex-shrink: 0;   
+    width: 600px;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/11.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image12{
+    flex-shrink: 0;   
+    width: 1314px;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/12.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image13{
+    flex-shrink: 0;   
+    width: 250px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/13.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image14{
+    flex-shrink: 0;   
+    width: 500px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/14.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image15{
+    flex-shrink: 0;   
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/15.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image17{
+    flex-shrink: 0;   
+    width: 243px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/17.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image18{
+    flex-shrink: 0;   
+    width: 653px;
+    height: 460px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/18.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image19{
+    flex-shrink: 0;   
+    width: 654px;
+    height: 460px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/19.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image20{
+    flex-shrink: 0;   
+    width: 700px;
+    height: 460px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/20.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image21{
+    flex-shrink: 0;   
+    width: 350px;
+    height: 460px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/21.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image22{
+    flex-shrink: 0;   
+    width: 250px;
+    height: 460px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/22.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image23{
+    flex-shrink: 0;   
+    width: 600px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/23.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image24{
+    flex-shrink: 0;   
+    width: 400px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/24.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image25{
+    flex-shrink: 0;   
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/25.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image26{
+    flex-shrink: 0;   
+    width: 240px;
+    height: 240px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/26.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image27{
+    flex-shrink: 0;   
+    width: 250px;
+    height: 240px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/27.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image28{
+    flex-shrink: 0;   
+    width: 350px;
+    height: 240px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/28.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image29{
+    flex-shrink: 0;   
+    width: 250px;
+    height: 240px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/29.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image30{
+    flex-shrink: 0;   
+    width: 197px;
+    height: 240px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/30.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image31{
+    flex-shrink: 0;   
+    width: 330px;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/31.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image32{
+    flex-shrink: 0;   
+    width: 700px;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/32.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image33{
+    flex-shrink: 0;   
+    width: 271px;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/33.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image34{
+    flex-shrink: 0;   
+    width: 330px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/34.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image35{
+    flex-shrink: 0;   
+    width: 311px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/35.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image36{
+    flex-shrink: 0;   
+    width: 660px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/36.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image37{
+    flex-shrink: 0;   
+    width: 500px;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/37.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image38{
+    flex-shrink: 0;   
+    width: 808px;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/38.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image39{
+    flex-shrink: 0;   
+    width: 655px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/39.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image40{
+    flex-shrink: 0;   
+    width: 656px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/40.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image41{
+    flex-shrink: 0;   
+    width: 300px;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/41.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image42{
+    flex-shrink: 0;   
+    width: 450px;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/42.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image43{
+    flex-shrink: 0;   
+    width: 300px;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/43.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image44{
+    flex-shrink: 0;   
+    width: 247px;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/44.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image45{
+    flex-shrink: 0;   
+    width: 410px;
+    height: 330px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/45.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image46{
+    flex-shrink: 0;   
+    width: 410px;
+    height: 330px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/46.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image47{
+    flex-shrink: 0;   
+    width: 235px;
+    height: 330px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/47.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image48{
+    flex-shrink: 0;   
+    width: 242px;
+    height: 330px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/48.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image49{
+    flex-shrink: 0;   
+    width: 400px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/49.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image50{
+    flex-shrink: 0;   
+    width: 400px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/50.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image51{
+    flex-shrink: 0;   
+    width: 504px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/51.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image52{
+    flex-shrink: 0;   
+    width: 1319px;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/52.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image53{
+    flex-shrink: 0;   
+    width: 800px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/53.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image54{
+    flex-shrink: 0;   
+    width: 210px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/54.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image55{
+    flex-shrink: 0;   
+    width: 296px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/55.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+}
+.image56{
+    flex-shrink: 0;   
+    width: 400px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/56.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+    margin-bottom: 6erm;
+}
+.image57{
+    flex-shrink: 0;   
+    width: 400px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/57.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+    margin-bottom: 6erm;
+}
+.image58{
+    flex-shrink: 0;   
+    width: 250px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/58.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+    margin-bottom: 6erm;
+}
+.image59{
+    flex-shrink: 0;   
+    width: 249px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./wit/59.jpg");
+    border: 2px solid white;
+    margin: 0.1rem;
+    margin-bottom: 6erm;
+}

@@ -1,0 +1,48 @@
+.body{
+    background: rgb(222, 227, 255);
+    padding: 3rem 0rem;
+}
+.text{
+    margin: 0rem 10rem;
+    h1{
+        font-size: 1.5rem;
+        color: black;
+        font-weight: bold;
+        text-align: center;
+    }
+    h2{
+        font-size: 0.8rem;
+        color: gray;
+        font-weight: lighter;
+        text-align: center;
+        margin-top: -0.5rem;
+    }
+    p{
+        font-size: 1rem;
+        color: black;
+        font-weight: lighter;
+        word-spacing: 0.3rem;
+        line-height: 1.5rem;
+    }
+}
+
+.logo{
+    display: flex;
+}
+.img{
+    margin-top: 1.2rem;
+    margin-left: 29rem;
+}
+
+.img2 {
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./14.jpg");
+    border-radius: 50%;
+    border: thick solid rgb(67, 255, 177);
+    margin-left: 25.5rem;
+    margin-top: 5rem;
+}
+    
