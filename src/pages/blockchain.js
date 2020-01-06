@@ -51,31 +51,52 @@ const Piaic = ({ data }) => {
     <div className= {BC.parent1}>
     <div className= {BC.child}>
     <h1>{progStructure["_1"][0]}</h1>
+    <div className= {BC.flex2}>
+    <div className= {BC.img}></div>
     <p>{progStructure["_1"][1]}</p>
+    </div>
     </div>
     <div className= {BC.child}>
     <h1>{progStructure["_3"][0]}</h1>
+    <div className= {BC.flex2}>
+    <div className= {BC.img2}></div>
     <p>{progStructure["_3"][1]}</p>
+    </div>
     </div>
     <div className= {BC.child}>
     <h1>{progStructure["_5"][0]}</h1>
+    <div className= {BC.flex2}>
+    <div className= {BC.img3}></div>
     <p>{progStructure["_5"][1]}</p>
+    </div>
     </div>
     <div className= {BC.child5}>
     <h1>{progStructure["_7"][0]}</h1>
+    <div className= {BC.flex2}>
+    <div className= {BC.img4}></div>
     <p>{progStructure["_7"][1]}</p>
+    </div>
     </div>
     <div className= {BC.child}>
     <h1>{progStructure["_9"][0]}</h1>
+    <div className= {BC.flex2}>
+    <div className= {BC.img5}></div>
     <p>{progStructure["_9"][1]}</p>
+    </div>
     </div>
     <div className= {BC.child5}>
     <h1>{progStructure["_11"][0]}</h1>
+    <div className= {BC.flex2}>
+    <div className= {BC.img8}></div>
     <p>{progStructure["_11"][1]}</p>
+    </div>
     </div>
     <div className= {BC.child2}>
     <h1>{progStructure["_13"][0]}</h1>
+    <div className= {BC.flex2}>
+    <div className= {BC.img6}></div>
     <p>{progStructure["_13"][1]}</p>
+    </div>
     </div>
     </div>
     
@@ -225,31 +246,52 @@ const Piaic = ({ data }) => {
     <div className= {BC.parent2}>
     <div className= {BC.child3}>
     <h1>{progStructure["_2"][0]}</h1>
+    <div className= {BC.flex2}>
+    <div className= {BC.img9}></div>
     <p>{progStructure["_2"][1]}</p>
+    </div>
     </div>
     <div className= {BC.child4}>
     <h1>{progStructure["_4"][0]}</h1>
+    <div className= {BC.flex2}>
+    <div className= {BC.img10}></div>
     <p>{progStructure["_4"][1]}</p>
+    </div>
     </div>
     <div className= {BC.child3}>
     <h1>{progStructure["_6"][0]}</h1>
+    <div className= {BC.flex2}>
+    <div className= {BC.img11}></div>
     <p>{progStructure["_6"][1]}</p>
+    </div>
     </div>
     <div className= {BC.child4}>
     <h1>{progStructure["_8"][0]}</h1>
+    <div className= {BC.flex2}>
+    <div className= {BC.img12}></div>
     <p>{progStructure["_8"][1]}</p>
+    </div>
     </div>
     <div className= {BC.child4}>
     <h1>{progStructure["_10"][0]}</h1>
+    <div className= {BC.flex2}>
+    <div className= {BC.img13}></div>
     <p>{progStructure["_10"][1]}</p>
+    </div>
     </div>
     <div className= {BC.child4}>
     <h1>{progStructure["_12"][0]}</h1>
+    <div className= {BC.flex2}>
+    <div className= {BC.img6}></div>
     <p>{progStructure["_12"][1]}</p>
+    </div>
     </div>
     <div className= {BC.child3}>
     <h1>{progStructure["_14"][0]}</h1>
+    <div className= {BC.flex2}>
+    <div className= {BC.img7}></div>
     <p>{progStructure["_14"][1]}</p>
+    </div>
     </div>
     </div>
     </div>

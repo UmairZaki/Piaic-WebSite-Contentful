@@ -53,19 +53,31 @@ const Piaic = ({ data }) => {
     <div className= {CN.parent1}>
     <div className= {CN.child}>
     <h1>{progStructure["_1"][0]}</h1>
+    <div className= {CN.flex2}>
+    <div className= {CN.img}></div>
     <p>{progStructure["_1"][1]}</p>
+    </div>
     </div>
     <div className= {CN.child}>
     <h1>{progStructure["_3"][0]}</h1>
+    <div className= {CN.flex2}>
+    <div className= {CN.img2}></div>
     <p>{progStructure["_3"][1]}</p>
+    </div>
     </div>
     <div className= {CN.child4}>
     <h1>{progStructure["_5"][0]}</h1>
+    <div className= {CN.flex2}>
+    <div className= {CN.img3}></div>
     <p>{progStructure["_5"][1]}</p>
+    </div>
     </div>
     <div className= {CN.child}>
     <h1>{progStructure["_7"][0]}</h1>
+    <div className= {CN.flex2}>
+    <div className= {CN.img4}></div>
     <p>{progStructure["_7"][1]}</p>
+    </div>
     </div>
     <div className= {CN.child2}>
     <h1>{progStructure["_9"][0]}</h1>
@@ -99,6 +111,16 @@ const Piaic = ({ data }) => {
 	<div className={CN.circle_main2}>
 	<div className={CN.circle_text_container}>
 	<div className = {CN.circle_text}>1C</div>
+	</div>
+	</div>
+    </div>
+
+    <div className= {CN.verticalLine4}></div>
+    
+    <div className={CN.circle_container}>
+	<div className={CN.circle_main2}>
+	<div className={CN.circle_text_container}>
+	<div className = {CN.circle_text}>1D</div>
 	</div>
 	</div>
     </div>
@@ -143,7 +165,7 @@ const Piaic = ({ data }) => {
 	</div>
     </div>
 
-    <div className= {CN.verticalLine4}></div>
+    <div className= {CN.verticalLine2}></div>
 
     <div className={CN.circle_container}>
 	<div className={CN.circle_main5}>
@@ -159,19 +181,31 @@ const Piaic = ({ data }) => {
     <div className= {CN.parent2}>
     <div className= {CN.child3}>
     <h1>{progStructure["_2"][0]}</h1>
+    <div className= {CN.flex2}>
+    <div className= {CN.img5}></div>
     <p>{progStructure["_2"][1]}</p>
+    </div>
     </div>
     <div className= {CN.child4}>
     <h1>{progStructure["_4"][0]}</h1>
+    <div className= {CN.flex2}>
+    <div className= {CN.img6}></div>
     <p>{progStructure["_4"][1]}</p>
+    </div>
     </div>
     <div className= {CN.child3}>
     <h1>{progStructure["_6"][0]}</h1>
+    <div className= {CN.flex2}>
+    <div className= {CN.img7}></div>
     <p>{progStructure["_6"][1]}</p>
+    </div>
     </div>
     <div className= {CN.child4}>
     <h1>{progStructure["_8"][0]}</h1>
+    <div className= {CN.flex2}>
+    <div className= {CN.img8}></div>
     <p>{progStructure["_8"][1]}</p>
+    </div>
     </div>
     </div>
     </div>

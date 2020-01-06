@@ -159,7 +159,7 @@
 .parent{
     display: flex;
     flex-wrap: wrap;
-    padding-right: 1rem;
+    padding-right: 3rem;
     padding-left: 4rem;
 }
 .flex2{
@@ -174,8 +174,9 @@
 .parent1 {
     margin-bottom: 5rem;
     margin-top: 5rem;
-    margin-right: 0.6rem;
+    margin-right: 3rem;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
 }
 .img{
@@ -343,8 +344,10 @@
 .parent2 {
     margin-left: 4rem;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     padding-top: 23rem;
+    margin-right: 2.5rem;
 }
 .child3 {
     background-color: white;

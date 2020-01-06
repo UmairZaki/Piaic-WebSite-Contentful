@@ -98,21 +98,24 @@ export default () => <Layout>
     <div className={HIT.body2}>
 
     <div className={HIT.flex}>
-    <div className={HIT.circle_container}>
+    <div>
 	<div className={HIT.circle_main1}>
 	<div className={HIT.circle_text_container}>
 	<div className = {HIT.circle_text}>2</div>
 	</div>
 	</div>
     </div>
+    <div className={HIT.child2}>
     <h1>To participate in the program and become eligible for the most prestigious credentials for AI, Cloud, and Blockchain technologies in the world, students must complete the following process</h1>
     </div>
-    
+    </div>
+    <div className={HIT.line2}></div>
     <div className={HIT.flex}><p>1- Signup at PIAIC Portal.</p><a href="https://portal.piaic.org/signup" target="_blank">Click Here</a></div>
     <p>2- Submit the online application.</p>
     <p>3- Pass the entrance exam which consists of multiple choice English and Mathematics questions. Results are determined based on percentile.</p>
     <p>4- Pass all PIAIC exams with an average score of at least 70%.</p>
     </div>
+    
     
     </div>
     
@@ -120,7 +123,7 @@ export default () => <Layout>
     <div className={HIT.flex}>
     
     
-    <div className={HIT.circle_container}>
+    <div>
 	<div className={HIT.circle_main1}>
 	<div className={HIT.circle_text_container}>
 	<div className = {HIT.circle_text}>3</div>
@@ -137,7 +140,7 @@ export default () => <Layout>
     <div className={HIT.body4}>
     <div className={HIT.flex}>
 
-    <div className={HIT.circle_container}>
+    <div>
 	<div className={HIT.circle_main4}>
 	<div className={HIT.circle_text_container}>
 	<div className = {HIT.circle_text2}>4</div>
@@ -145,8 +148,8 @@ export default () => <Layout>
 	</div>
     </div>
     
-    <div>
-    <p>Those students who wish to participate in the program online can check the distance learning option in the application form. Please note that distance learning students must also take proctored exams on site, just like the onsite students.</p>
+    <div >
+    <div className = {HIT.margin2}><p>Those students who wish to participate in the program online can check the distance learning option in the application form. Please note that distance learning students must also take proctored exams on site, just like the onsite students.</p></div>
     <p>The fee structure for onsite students is PKR 1,000 per month for 12 months, payable in 4 installments of PKR 3,000, before the start of each quarter.</p>
     <p>The fee structure for distance learning students is PKR 500 per month for 12 months, payable in 4 installments of PKR 1,500, before the start of each quarter.</p>
     </div>

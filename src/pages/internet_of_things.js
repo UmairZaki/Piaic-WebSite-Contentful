@@ -40,7 +40,7 @@ const Piaic = ({ data }) => {
     <p>{quarters._4}</p>
     </div>
     </div>
-    <div className= {IOT.flex2}>
+    <div className= {IOT.flex3}>
     <div className= {IOT.box5}>
     <h1>Quarter 5</h1>
     <p>{quarters._5}</p>
@@ -62,7 +62,10 @@ const Piaic = ({ data }) => {
     <div className= {IOT.parent1}>
     <div className= {IOT.child}>
     <h1>{progStructure["_1"][0]}</h1>
+    <div className= {IOT.flex2}>
+    <div className= {IOT.img}></div>
     <p>{progStructure["_1"][1]}</p>
+    </div>
     </div>
     <div className= {IOT.child}>
     <h1>{progStructure["_3"][0]}</h1>
@@ -78,15 +81,24 @@ const Piaic = ({ data }) => {
     </div>
     <div className= {IOT.child}>
     <h1>{progStructure["_9"][0]}</h1>
+    <div className= {IOT.flex2}>
+    <div className= {IOT.img2}></div>
     <p>{progStructure["_9"][1]}</p>
+    </div>
     </div>
     <div className= {IOT.child5}>
     <h1>{progStructure["_11"][0]}</h1>
+    <div className= {IOT.flex2}>
+    <div className= {IOT.img3}></div>
     <p>{progStructure["_11"][1]}</p>
+    </div>
     </div>
     <div className= {IOT.child}>
     <h1>{progStructure["_13"][0]}</h1>
+    <div className= {IOT.flex2}>
+    <div className= {IOT.img4}></div>
     <p>{progStructure["_13"][1]}</p>
+    </div>
     </div>
     <div className= {IOT.child5}>
     <h1>{progStructure["_15"][0]}</h1>
@@ -154,7 +166,7 @@ const Piaic = ({ data }) => {
 	</div>
     </div>
 
-    <div className= {IOT.verticalLine4}></div>
+    <div className= {IOT.verticalLine2}></div>
 
     <div className={IOT.circle_container}>
 	<div className={IOT.circle_main2}>
@@ -194,7 +206,7 @@ const Piaic = ({ data }) => {
 	</div>
     </div>
 
-    <div className= {IOT.verticalLine4}></div>
+    <div className= {IOT.verticalLine7}></div>
 
     <div className={IOT.circle_container}>
 	<div className={IOT.circle_main4}>
@@ -222,16 +234,6 @@ const Piaic = ({ data }) => {
     <div className = {IOT.circle_text2}>3E</div>
     </div>
     </div>
-    </div>
-
-    <div className= {IOT.verticalLine3}></div>
-
-    <div className={IOT.circle_container}>
-    <div className={IOT.circle_main4}>
-    <div className={IOT.circle_text_container}>
-    <div className = {IOT.circle_text2}>3G</div>
-    </div>
-	</div>
     </div>
 
     <div className= {IOT.verticalLine2}></div>
@@ -271,7 +273,10 @@ const Piaic = ({ data }) => {
     <div className= {IOT.parent2}>
     <div className= {IOT.child3}>
     <h1>{progStructure["_2"][0]}</h1>
+    <div className= {IOT.flex2}>
+    <div className= {IOT.img}></div>
     <p>{progStructure["_2"][1]}</p>
+    </div>
     </div>
     <div className= {IOT.child6}>
     <h1>{progStructure["_4"][0]}</h1>
@@ -279,25 +284,34 @@ const Piaic = ({ data }) => {
     </div>
     <div className= {IOT.child6}>
     <h1>{progStructure["_6"][0]}</h1>
+    <div className= {IOT.flex2}>
+    <div className= {IOT.img5}></div>
     <p>{progStructure["_6"][1]}</p>
     </div>
-    <div className= {IOT.child6}>
+    </div>
+    <div className= {IOT.child4}>
     <h1>{progStructure["_8"][0]}</h1>
     <p>{progStructure["_8"][1]}</p>
     </div>
-    <div className= {IOT.child4}>
+    <div className= {IOT.child6}>
     <h1>{progStructure["_10"][0]}</h1>
+    <div className= {IOT.flex2}>
+    <div className= {IOT.img6}></div>
     <p>{progStructure["_10"][1]}</p>
     </div>
-    <div className= {IOT.child6}>
-    <h1>{progStructure["_12"][0]}</h1>
-    <p>{progStructure["_12"][1]}</p>
     </div>
     <div className= {IOT.child4}>
+    <h1>{progStructure["_12"][0]}</h1>
+    <div className= {IOT.flex2}>
+    <div className= {IOT.img7}></div>
+    <p>{progStructure["_12"][1]}</p>
+    </div>
+    </div>
+    <div className= {IOT.child6}>
     <h1>{progStructure["_14"][0]}</h1>
     <p>{progStructure["_14"][1]}</p>
     </div>
-    <div className= {IOT.child6}>
+    <div className= {IOT.child2}>
     <h1>{progStructure["_16"][0]}</h1>
     <p>{progStructure["_16"][1]}</p>
     </div>
