@@ -2,7 +2,6 @@ import React from "react"
 import { Link } from 'gatsby'
 import Layout from "../components/layout"
 import indexS from '../components/index.module.scss'
-//import pic1 from "../components/president.png"
 
 
 const Piaic = ({ data }) => {
@@ -14,21 +13,19 @@ const Piaic = ({ data }) => {
 
     <div className= {indexS.body} >
       
-    <div className = {indexS.title}>
+   
     <div className = {indexS.flex}>
-    <div><img width= "386px" height= "auto" src={president["file"]["url"]}/></div>
+    <div className = {indexS.title}><img src={president["file"]["url"]}/></div>
     <div className={indexS.titleout}>
-  <h1>{title}</h1>
-  <h2>{title2}</h2>
-  
-  <p>{intro["intro"]}</p>
-  </div>
+    <h1>{title}</h1>
+    <h2>{title2}</h2>
+    <p>{intro["intro"]}</p></div>
     </div>
     </div>
+    
+    
     <div className= {indexS.button_padding}>
-    <div>
-    <a href="https://portal.piaic.org/signup" target="_blank"><p className= {indexS.button}> Apply </p></a>
-    </div> 
+    <div><a href="https://portal.piaic.org/signup" target="_blank"><p className= {indexS.button}> Apply </p></a></div>
     <div className= {indexS.line}> </div>
     <ul >
         <li className= {indexS.font_li}>
@@ -40,10 +37,8 @@ const Piaic = ({ data }) => {
     </ul>
     </div>
     <div className= {indexS.heading}>
-  <p>{heading2}</p>
+    <p>{heading2}</p>
     </div>
-    </div>
-    
 
     <div className= {indexS.parent1}>
     
@@ -74,7 +69,7 @@ const Piaic = ({ data }) => {
       </div>
     
     <div className= {indexS.heading2}>
-  <p>{heading3}</p>
+    <p>{heading3}</p>
      </div >
   
     <div className = {indexS.parent3}>
@@ -222,7 +217,7 @@ const Piaic = ({ data }) => {
   <div className={indexS.spotlight}>
   <div className={indexS.image3}>
   </div>
-  <div className={indexS.text2}>
+  <div className={indexS.text}>
   <h2>{imageTags[2]}</h2>
   <p>{imageText3.imageText3}</p>
   </div>
@@ -235,15 +230,15 @@ const Piaic = ({ data }) => {
 <h1>{heading6}</h1>
   <div className={indexS.logos}>
   <div className={indexS.items}>
-  <a href="https://www.panacloud.ai/" target = "_blank" ><img src={require("../components/1.svg")} width="130" height="auto"  alt="klnaznc" /></a>
+  <a href="https://www.panacloud.ai/" target = "_blank" ><img src={require("../components/1.svg")}  alt="klnaznc" /></a>
   </div>
 
   <div className={indexS.items}>
-  <a href="https://www.psx.com.pk/" target = "_blank" ><img src={require("../components/2.png")} width="60" height="auto"  alt="klnaznc" /></a>
+  <a href="https://www.psx.com.pk/" target = "_blank" ><img src={require("../components/2.png")}  alt="klnaznc" /></a>
   </div>
 
   <div className={indexS.items}>
-  <a href="http://www.saylaniwelfare.com/home" target = "_blank" ><img src={require("../components/3.png")} width="200" height="auto"  alt="klnaznc" /></a>
+  <a href="http://www.saylaniwelfare.com/home" target = "_blank" ><img src={require("../components/3.png")} alt="klnaznc" /></a>
   </div>
 
   </div>
@@ -270,62 +265,62 @@ const Piaic = ({ data }) => {
   <div className= {indexS.address2}>
   <h1>Locations</h1>
   <h1>PIAIC Headquarters</h1>
-  <div className= {indexS.add}>
-  <div className= {indexS.x}><img src={require("../components/11.svg")} width="auto" height="20px" bg="rgb(36, 49, 53)" alt="klnaznc" /></div>
+  <div className= {indexS.add2}>
+  <div className= {indexS.x}><img src={require("../components/11.svg")} bg="rgb(36, 49, 53)" alt="klnaznc" /></div>
   <div className= {indexS.x}><a href="https://www.google.com/maps/place/Presidential+Initiative+for+Artificial+Intelligence+and+Computing+(PIAIC)+Headquarters/@24.8613137,67.0711981,17z/data=!3m1!4b1!4m5!3m4!1s0x3eb33ff89c73993d:0x91c53ba630675f8!8m2!3d24.8612787!4d67.0733723"><p>Plot 245/2 M, Block 6 PECHS, Karachi, Sindh 75100, Pakistan</p></a></div>
   </div>
-  <div className= {indexS.add}>
-  <div className= {indexS.x}><img src={require("../components/10.svg")} width="auto" height="20px" bg="rgb(36, 49, 53)" alt="klnaznc" /></div>
-  <div className= {indexS.x}><p>+92-308-2220203 (WhatsApp as well)</p></div>
+  <div className= {indexS.add2}>
+  <div className= {indexS.x}><img src={require("../components/10.svg")} bg="rgb(36, 49, 53)" alt="klnaznc" /></div>
+  <div className= {indexS.z}><p>+92-308-2220203 (WhatsApp as well)</p></div>
   </div>
   <h1>PIAIC Helpline</h1>
-  <div className= {indexS.add}>
-  <div className= {indexS.x}><img src={require("../components/10.svg")} width="auto" height="20px" bg="rgb(36, 49, 53)" alt="klnaznc" /></div>
-  <div className= {indexS.x}><p>+92-308-2220203 (WhatsApp as well)</p></div>
+  <div className= {indexS.add2}>
+  <div className= {indexS.x}><img src={require("../components/10.svg")} bg="rgb(36, 49, 53)" alt="klnaznc" /></div>
+  <div className= {indexS.z}><p>+92-308-2220203 (WhatsApp as well)</p></div>
   </div>
   <h1>Connect with us</h1>
-  <div className= {indexS.add}>
-  <div className= {indexS.x}><a href= "https://www.youtube.com/channel/UC2Makv_pLAtvrjHNgg-pBLg" target = "_blank"><img src={require("../components/13.svg")} width="auto" height="20px" bg="rgb(36, 49, 53)" alt="klnaznc" /></a></div>
-  <div className= {indexS.x}><a href= "https://www.facebook.com/groups/piaic/" target = "_blank"><img src={require("../components/12.svg")} width="auto" height="20px" bg="rgb(36, 49, 53)" alt="klnaznc" /></a></div>
+  <div className= {indexS.add2}>
+  <div className= {indexS.x}><a href= "https://www.youtube.com/channel/UC2Makv_pLAtvrjHNgg-pBLg" target = "_blank"><img src={require("../components/13.svg")}  bg="rgb(36, 49, 53)" alt="klnaznc" /></a></div>
+  <div className= {indexS.y}><a href= "https://www.facebook.com/groups/piaic/" target = "_blank"><img src={require("../components/12.svg")}  bg="rgb(36, 49, 53)" alt="klnaznc" /></a></div>
   </div>
   </div>
 
 
   <div className= {indexS.address3}>
   <h1>Karachi Field Office</h1>
-  <div className= {indexS.add}>
-  <div className= {indexS.x}><img src={require("../components/11.svg")} width="auto" height="20px" bg="rgb(36, 49, 53)" alt="klnaznc" /></div>
+  <div className= {indexS.add2}>
+  <div className= {indexS.x}><img src={require("../components/11.svg")} bg="rgb(36, 49, 53)" alt="klnaznc" /></div>
   <div className= {indexS.x}><a href="https://www.google.com/maps/place/Saylani+Welfare+Head+Office./@24.8827229,67.0659646,17z/data=!3m1!4b1!4m5!3m4!1s0x3eb33eebb56aaaab:0x27ab04809ef5020a!8m2!3d24.8827229!4d67.0681533" target="_blank"><p>A-25, Bahadurabad Chowrangi, Karachi, Sindh 74800, Pakistan</p></a></div>
   </div>
-  <div className= {indexS.add}>
-  <div className= {indexS.x}><img src={require("../components/10.svg")} width="auto" height="20px" bg="rgb(36, 49, 53)" alt="klnaznc" /></div>
-  <div className= {indexS.x}><p>+92-311-1729526</p></div>
+  <div className= {indexS.add2}>
+  <div className= {indexS.x}><img src={require("../components/10.svg")} bg="rgb(36, 49, 53)" alt="klnaznc" /></div>
+  <div className= {indexS.b}><p>+92-311-1729526</p></div>
   </div>
   <h1>Rawalpindi Field Office</h1>
-  <div className= {indexS.add}>
-  <div className= {indexS.x}><img src={require("../components/11.svg")} width="auto" height="20px" bg="rgb(36, 49, 53)" alt="klnaznc" /></div>
+  <div className= {indexS.add2}>
+  <div className= {indexS.x}><img src={require("../components/11.svg")} bg="rgb(36, 49, 53)" alt="klnaznc" /></div>
   <div className= {indexS.x}><a href="https://www.google.com/maps/place/33%C2%B037'58.2%22N+73%C2%B004'04.2%22E/@33.6328413,73.0656368,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d33.6328413!4d73.0678255?hl=en" target="_blank"><p>4th-B Rd, Satellite Town, Rawalpindi, Punjab 46300</p></a></div>
   </div>
-  <div className= {indexS.add}>
-  <div className= {indexS.x}><img src={require("../components/10.svg")} width="auto" height="20px" bg="rgb(36, 49, 53)" alt="klnaznc" /></div>
-  <div className= {indexS.x}><p>051-4940669 / 0336-6660215</p></div>
+  <div className= {indexS.add2}>
+  <div className= {indexS.x}><img src={require("../components/10.svg")} bg="rgb(36, 49, 53)" alt="klnaznc" /></div>
+  <div className= {indexS.y}><p>051-4940669 / 0336-6660215</p></div>
   </div>
   <h1>Islamabad Field Office</h1>
-  <div className= {indexS.add}>
-  <div className= {indexS.x}><img src={require("../components/11.svg")} width="auto" height="20px" bg="rgb(36, 49, 53)" alt="klnaznc" /></div>
+  <div className= {indexS.add2}>
+  <div className= {indexS.x}><img src={require("../components/11.svg")} bg="rgb(36, 49, 53)" alt="klnaznc" /></div>
   <div className= {indexS.x}><a href="https://www.google.com/maps/place/33%C2%B041'47.0%22N+73%C2%B000'43.7%22E/@33.696386,73.0099453,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d33.696386!4d73.012134" target="_blank"><p>F-10 Markaz F 10/3 F-10, Islamabad, Islamabad Capital Territory</p></a></div>
   </div>
-  <div className= {indexS.add}>
-  <div className= {indexS.x}><img src={require("../components/10.svg")} width="auto" height="20px" bg="rgb(36, 49, 53)" alt="klnaznc" /></div>
-  <div className= {indexS.x}><p>051-2223191 (WhatsApp as well)</p></div>
+  <div className= {indexS.add2}>
+  <div className= {indexS.x}><img src={require("../components/10.svg")} bg="rgb(36, 49, 53)" alt="klnaznc" /></div>
+  <div className= {indexS.y}><p>051-2223191 (WhatsApp as well)</p></div>
   </div>
   <h1>Faisalabad Field Office</h1>
-  <div className= {indexS.add}>
-  <div className= {indexS.x}><img src={require("../components/11.svg")} width="auto" height="20px" bg="rgb(36, 49, 53)" alt="klnaznc" /></div>
+  <div className= {indexS.add2}>
+  <div className= {indexS.x}><img src={require("../components/11.svg")} bg="rgb(36, 49, 53)" alt="klnaznc" /></div>
   <div className= {indexS.x}><a href="https://www.google.com/maps/place/Saylani+Mass+Training+Faisalabad/@31.411708,73.0865596,17z/data=!3m1!4b1!4m5!3m4!1s0x3922681d444b32e1:0xc3887a0e53e91f7!8m2!3d31.411708!4d73.0887483" target="_blank"><p>Saylani House, 3rd Floor, Lal Mill Chowk, Factory Area, Faisalabad, Punjab</p></a></div>
   </div>
-  <div className= {indexS.add}>
-  <div className= {indexS.x}><img src={require("../components/10.svg")} width="auto" height="20px" bg="rgb(36, 49, 53)" alt="klnaznc" /></div>
+  <div className= {indexS.add2}>
+  <div className= {indexS.x}><img src={require("../components/10.svg")} bg="rgb(36, 49, 53)" alt="klnaznc" /></div>
   <div className= {indexS.x}><p>(041) 2417281 / 0337 8659969 (WhatsApp as well)</p></div>
   </div>
   </div>
