@@ -6,7 +6,7 @@ export default () => <footer className= {footerS.bar}>
         <h1>&copy; 2019 PIAIC. All rights reserved.</h1>
         <div className= {footerS.logo}>
           <p>Powered by</p>
-     <a href="https://www.panacloud.ai/" target = "_blank" ><img src={require("./panacloud.png")} width="80" height="auto"  alt="klnaznc" /></a>
+     <a href="https://www.panacloud.ai/" target = "_blank" ><img src={require("./panacloud.png")} alt="klnaznc" /></a>
     </div>
     
 </footer>

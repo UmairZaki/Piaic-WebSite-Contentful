@@ -321,7 +321,7 @@ const Piaic = ({ data }) => {
   </div>
   <div className= {indexS.add2}>
   <div className= {indexS.x}><img src={require("../components/10.svg")} bg="rgb(36, 49, 53)" alt="klnaznc" /></div>
-  <div className= {indexS.x}><p>(041) 2417281 / 0337 8659969 (WhatsApp as well)</p></div>
+  <div className= {indexS.c}><p>(041) 2417281 / 0337 8659969 (WhatsApp as well)</p></div>
   </div>
   </div>
   

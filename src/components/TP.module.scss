@@ -39,10 +39,16 @@
     height: 200px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("./14.jpg");
     border-radius: 50%;
     border: thick solid rgb(67, 255, 177);
     margin-left: 25.5rem;
     margin-top: 5rem;
+    img{
+        width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%; 
+    }
 }
     
